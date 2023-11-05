@@ -1,0 +1,51 @@
+.menu-container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+.menu-item {
+    display: inline-block;
+    width: 30%; 
+    margin: 05px;
+    border: 1px solid #ccc; 
+    padding: 10px;
+}
+
+.lanche {
+    width: 300px;
+    height: 200px;
+}
+
+.add {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.item {
+    display: inline;
+    width: 100%;
+    margin-left: 6px;
+}
+
+.quant{
+    width: 25px;
+    margin-right: 5px;
+}
+
+#bacon {
+    padding-right: 39.5px;
+}
+
+#queijo {
+    padding-right: 36.5px;
+}
+
+button{
+    display:block;
+    width: 100px;
+}
+
+.refri {
+    width: 165px;
+    height: 305px;
+}

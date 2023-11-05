@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menu da Lanchonete</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <center>
+        <img src="./midia/logo2.jpg" alt="Logotipo da Lanchonete" width="200px" height="200px">
+        </center>
+    </div>
+
+    <div id="owners">
+        <p>Victor Soares</p>
+        <p> </p>
+        <!-- Adicione mais nomes, se necessário -->
+    </div>
+    <center>
+    <div id="menu">
+        <hr>
+        <center>
+        <h1>Hambúrgueres:</h1>
+        </center>
+        <hr>
+        <div class="menu-item">
+            <h2>Hambúrguer Clássico</h2>
+            <img src="./midia/xburguer.jpg" class="lanche">
+            <p>Ingredientes: Nosso hambúrguer clássico feito com carne suculenta, queijo chedda, bacon e nosso molho
+                exclusivo
+                especial.</p>
+            <p>Preço: R$15,99</p>
+            <h3>Adicionais:</h3>
+
+            <div>
+                <p class="item">Hambúrguer:</p>
+                <div class="add">
+                    <input class="quant" placeholder="0" type="number" min="0">
+                </div>
+            </div>
+
+            <div>
+                <p class="item" id="queijo">Queijo:</p>
+                <div class="add">
+                    <input class="quant" placeholder="0" type="number" min="0">
+                </div>
+            </div>
+
+            <div>
+                <p class="item" id="bacon">Bacon:</p>
+                <div class="add">
+                    <input class="quant" placeholder="0" type="number" min="0">
+                </div>
+            </div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+
+        <div class="menu-item">
+            <h2>Cheeseburguer Duplo</h2>
+            <img src="./midia/double-x-bacon.jpg" alt="Cheeseburguer Duplo" class="lanche">
+            <p>Ingredientes: Dois hambúrgueres, o dobro de queijo cheddar, bacon e nosso molho exclusivo.</p>
+            <p>Preço: R$25,99</p>
+            <h3>Adicionais:</h3>
+
+            <div>
+                <p class="item">Hambúrguer:</p>
+                <div class="add">
+                    <input class="quant" placeholder="0" type="number" min="0">
+                </div>
+            </div>
+
+            <div>
+                <p class="item" id="queijo">Queijo:</p>
+                <div class="add">
+                    <input class="quant" placeholder="0" type="number" min="0">
+                </div>
+            </div>
+
+            <div>
+                <p class="item" id="bacon">Bacon:</p>
+                <div class="add">
+                    <input class="quant" placeholder="0" type="number" min="0">
+                </div>
+            </div>
+
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h2>Cheese Salada</h2>
+            <img src="./midia/salada2.jpg" alt="Cheeseburguer Duplo" class="lanche">
+            <p>Ingredientes: Hambúrgueres, queijo derretido, alface, tomate, cebola roxa e nosso molho exclusivo.</p>
+            <p>Preço: R$20,99</p>
+            <h3>Adicionais:</h3>
+
+            <div>
+                <p class="item">Hambúrguer:</p>
+                <div class="add">
+                    <input class="quant" placeholder="0" type="number" min="0">
+                </div>
+            </div>
+
+            <div>
+                <p class="item" id="queijo">Queijo:</p>
+                <div class="add">
+                    <input class="quant" placeholder="0" type="number" min="0">
+                </div>
+            </div>
+
+            <div>
+                <p class="item" id="bacon">Bacon:</p>
+                <div class="add">
+                    <input class="quant" placeholder="0" type="number" min="0">
+                </div>
+            </div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <hr>
+        <center>
+        <h1>Acompanhamentos:</h1>
+        </center>
+        <hr>
+        <div class="menu-item">
+            <h2>Batata Frita</h2>
+            <img src="./midia/batata.webp" alt="Cheeseburguer Duplo" class="lanche">
+            <p>Ingredientes: Batata Frita com Cheddar e Bacon.</p>
+            <p>Preço: R$15,99</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="menu-item">
+            <h2>Onion Rings</h2>
+            <img src="./midia/onion rings.jpg" alt="Cheeseburguer Duplo" class="lanche">
+            <p>Ingredientes: Cebola Frita e Molho da Casa.</p>
+            <p>Preço: R$20,99</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="menu-item">
+            <h2>Nuggets</h2>
+            <img src="./midia/nuggets.jpeg" alt="Cheeseburguer Duplo" class="lanche">
+            <p>Ingredientes: Nuggets com Molho Rose e Ketchup.</p>
+            <p>Preço: R$25,99</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+    </div>
+    <hr>
+    <center>
+    <h1>Bebidas:</h1>
+    </center>
+    <hr>
+    <div class="menu-item">
+        <h2>Coca-Cola</h2>
+        <img src="./midia/coca cola.jpg" alt="Cheeseburguer Duplo" class="refri">
+        <p>Preço: R$5,90</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="menu-item">
+        <h2>Guaraná</h2>
+        <img src="./midia/guarana.jpg" alt="Cheeseburguer Duplo" class="refri">
+        <p>Preço: R$5,90</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="menu-item">
+        <h2>Pepsi</h2>
+        <img src="./midia/fanta2.jpg" alt="Cheeseburguer Duplo" class="refri">
+        <p>Preço: R$5,90</p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+    </div>
+</center>
+</body>
+<script src="scripts.js"></script>
+
+</html>
